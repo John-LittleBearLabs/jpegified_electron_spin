@@ -1,0 +1,9 @@
+static_library("electron_hooks") {
+    sources = [
+        "scheme_url_loader.cc",
+        "scheme_url_loader.h",
+    ]
+    deps = [
+        "//base",
+    ]
+}
